@@ -12,6 +12,8 @@ public with sharing class AccountController_VF {
             options.add(new SelectOption('US','US'));
             options.add(new SelectOption('CANADA','Canada'));
             options.add(new SelectOption('MEXICO','Mexico'));
+            options.add(new SelectOption('PAK','PAK'));
+            options.add(new SelectOption('INDIA','INDIA'));
             return options;
         }
         
